@@ -1,0 +1,7 @@
+import math
+yrad = float(input())
+ydegree=math.degrees(yrad)
+hours = ydegree//30
+minutes = ydegree%30//2
+mindegree=hours*30+minutes*(30/60)
+print(hours, minutes, mindegree)
