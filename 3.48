@@ -1,0 +1,4 @@
+y = int(input())
+hours = y//30
+minutes = y%30//2
+print(hours, minutes)
