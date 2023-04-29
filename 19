@@ -1,0 +1,2 @@
+d = float(input())
+print((2*9.8*d)**0.5)
