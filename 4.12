@@ -1,0 +1,9 @@
+import math
+r, a, b= float(input()), float(input()), float(input())
+r = math.pi * r ** 2
+s = a * b
+
+if r < s:
+    print('square')
+else:
+    print('rond')
