@@ -1,0 +1,2 @@
+s, h = float(input()), float(input())
+print(round(s*h, 1))
