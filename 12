@@ -1,0 +1,10 @@
+import math
+t1, g1, t2, g2 = int(input()), int(input()), int(input()), int(input())
+a = math.radians(t1)
+b = math.radians(g1)
+c = math.radians(t2)
+d = math.radians(g2)
+print(6371.01 * math.acos(math.sin(a)*math.sin(c)) + math.cos(a) * math.cos(c) * math.cos(b - d))
+
+
+
