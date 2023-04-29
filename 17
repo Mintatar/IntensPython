@@ -1,0 +1,6 @@
+m, t = float(input()), float(input())
+c = 4.186
+q = m * t * c
+print(q)
+print(q/3600000 * 8.9)
+
