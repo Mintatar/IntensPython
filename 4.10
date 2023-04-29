@@ -1,0 +1,7 @@
+k, f = float(input()), float(input())
+k *= 1000
+f *= 0.3048
+if k < f:
+    print(k)
+else:
+    print(f)
