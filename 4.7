@@ -1,0 +1,10 @@
+import math
+x = float(input())
+if math.sin(x) < 0:
+    k = x**2
+else:
+    k = abs(x)
+if k < x:
+    print(k * x)
+else:
+    print(k+x)
