@@ -1,0 +1,6 @@
+r1, u1, r2, u2 = float(input()), float(input()), float(input()), float(input())
+if u1 / r1 > u2 / r2:
+    print(2)
+else:
+    print(1)
+
