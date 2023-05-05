@@ -1,0 +1,7 @@
+y1, m1, y2, m2 = int(input()), int(input()), int(input()), int(input())
+a = y2 - y1
+if m2 >= m1:
+    a+=1
+print(a)
+
+
