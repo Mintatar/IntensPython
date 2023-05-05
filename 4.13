@@ -1,0 +1,6 @@
+m1, v1, m2, v2 = float(input()), float(input()), float(input()), float(input())
+if m1/v1 > m2/v2:
+    print(1)
+else:
+    print(2)
+
