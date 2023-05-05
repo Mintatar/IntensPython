@@ -1,0 +1,16 @@
+import math
+r, t = float(input()), float(input())
+dr = (r / math.pi)**0.5
+
+a = ((t**2)/(1.5*0.5**3))**0.25
+h = 2 * t / a
+if dr / 2 <= h / 3:
+    print('Yes')
+else:
+    print('no')
+if dr / 2 < 2 * h / 3:
+    print('yes')
+else:
+    print('no')
+
+
