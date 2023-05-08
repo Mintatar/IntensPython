@@ -1,0 +1,13 @@
+n = int(input())
+q = n ** 2
+a = n // 10
+b = n % 10
+c = a + b
+if c % 3 == 0:
+    print('Yes')
+else:
+    print('No')
+if c % a == 0:
+    print('Yes')
+else:
+    print('No')
