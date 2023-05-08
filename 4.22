@@ -1,0 +1,5 @@
+m, n = int(input()), int(input())
+if m % n = 0:
+    print(p / n)
+else:
+    print('m а n не делится')
