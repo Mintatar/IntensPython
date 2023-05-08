@@ -1,0 +1,17 @@
+n = int(input())
+q = n ** 2
+a = n // 100
+b = n % 10 // 10
+c = n % 10
+if a > c:
+    print(a)
+else:
+    print(c)
+if a > b:
+    print(a)
+else:
+    print(b)
+if b > c:
+    print(b)
+else:
+    print(c)
