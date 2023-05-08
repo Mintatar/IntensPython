@@ -1,0 +1,9 @@
+a = int(input())
+if a % 2 == 0:
+    print('четное')
+else:
+    print('нечетное')
+if a % 10 == 7:
+    print("кончается на 7")
+else:
+    print('не кончается')
