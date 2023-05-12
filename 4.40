@@ -1,0 +1,5 @@
+a = int(input())
+if -5 <= a <= 3:
+    print("YES")
+else:
+    print("NO")
