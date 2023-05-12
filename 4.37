@@ -1,0 +1,12 @@
+n = int(input())
+b = int(input())
+if n % b == 0:
+    print("YES")
+else:
+    print("NO")
+if b % n == 0:
+    print("YES")
+else:
+    print("NO")
+    
+
