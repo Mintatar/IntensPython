@@ -1,0 +1,5 @@
+x, y = float(input()), float(input())
+if x > 3 and y > 2:
+    print("YES")
+else:
+    print("NO")
