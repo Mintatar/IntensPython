@@ -1,0 +1,10 @@
+import math
+a, b, c = float(input()), float(input()), float(input())
+if a < b <c:
+    print("YES")
+else:
+    print("NO")
+if b > a > c:
+    print("YES")
+else:
+    print("NP")
