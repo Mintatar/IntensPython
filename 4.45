@@ -1,0 +1,5 @@
+x = float(input())
+if -2.4 <= x <= 5.7:
+    print("YES")
+else:
+    print("NO")
