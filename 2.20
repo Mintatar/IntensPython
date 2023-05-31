@@ -1,0 +1,6 @@
+import math
+e, f, g, h = float(input()), float(input()), float(input()), float(input())
+a = ((abs((e - (3/f))**3))+ g)**0.5
+b = math.sin(e) + (math.cos(h))**2
+c = 33*g/(e*f-3)
+print(a, b, c)
