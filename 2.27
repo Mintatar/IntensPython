@@ -1,0 +1,3 @@
+a, b, h = float(input()), float(input()), float(input())
+c = (h**2 + ((a-b)/2)**2)**0.5
+print(a+b+c*2)
