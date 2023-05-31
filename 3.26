@@ -1,0 +1,11 @@
+import math
+n = int(input())
+s= n//100
+d= n%100//10
+e= n%100%10
+print(s*100+d*10+e)
+print(s*100+e*10+d)
+print(d*100+e*10+s)
+print(d*100+s*10+e)
+print(e*100+d*10+s)
+print(e*100+s*10+d)
