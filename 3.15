@@ -1,0 +1,6 @@
+import math
+n = int(input())
+y = math.ceil (n / 120)
+s = math.ceil((n +7) % 120 % 8) + 1
+print(y)
+print(s)
