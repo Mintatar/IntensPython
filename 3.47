@@ -1,0 +1,11 @@
+h=int(input())
+m=int(input())
+s=int(input())
+h = h % 12
+dh = 360 / 12
+a = dh * h
+dm = dh / 60
+b = dm * m
+ds = dm / 60
+c = ds * s
+print(a+b+c)
