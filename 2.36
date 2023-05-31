@@ -1,0 +1,8 @@
+v1, v2, = float(input()), float(input())
+t=0.5
+print((v1-v2)*0.5)
+2.35
+c = float(input())
+
+print(c*1.8+32)
+print(c-273.15) 
