@@ -1,0 +1,15 @@
+import math
+n = int(input())
+t= n//1000
+s= n%1000//100
+d= n%1000%100//10
+e= n%1000%100%10
+print(t+s+d+e)
+import math
+n = int(input())
+g= n//10000
+t= n%10000//1000
+s= n%10000%1000//100
+d= n%10000%1000%100//10
+e= n%10000%1000%100%10
+print(g+t+s+d+e)
