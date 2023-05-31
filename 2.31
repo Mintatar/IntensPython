@@ -1,0 +1,3 @@
+a, b, c = float(input()), float(input()), float(input())
+x, y, z = float(input()), float(input()), float(input())
+print(a*x+b*y+c*z)
