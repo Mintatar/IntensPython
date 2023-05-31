@@ -1,0 +1,8 @@
+import math
+n = int(input())
+a = math.ceil(n/54)
+b = math.ceil(n%54/6)
+c = (n+5)%54%6+1
+print(a)
+print(b)
+print(c)
