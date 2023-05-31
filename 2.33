@@ -1,0 +1,5 @@
+x, y = int(input()), int(input())
+s = (x+y)/2
+b =abs(s-x)
+g =abs(s-y)
+print(s, b, g)
