@@ -1,0 +1,6 @@
+import math
+n = int(input())
+s = n//10
+e = n%10
+summ = s+e
+print(summ)
