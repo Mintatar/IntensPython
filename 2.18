@@ -1,0 +1,7 @@
+import math
+x, y = float(input()), float(input())
+def z(x, y):
+return (x + ((2 + y)/x**2))/y+ (1/(x**2 + 10)**0.5)
+def q(x, y):
+return (7.25 * math.sin(x)-abs(y))
+print(z(x, y), q(x, y))
