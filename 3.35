@@ -1,0 +1,5 @@
+import math
+n = int(input())
+e = n%10
+x = (n - e)//10+e*100
+print(x)
