@@ -1,0 +1,7 @@
+# Златопольский 12.6
+a = list(input())
+b = len(a)
+if b % 2 == 0:
+    print('четно')
+else:
+    print('нечетно')

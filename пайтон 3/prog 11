@@ -1,0 +1,4 @@
+# Златопольский 12.13
+a = list(input())
+k = int(input())
+print(a[k-1])

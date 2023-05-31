@@ -1,0 +1,4 @@
+# Златопольский 12.5
+a = list(input())
+b = len(a)
+print(b)

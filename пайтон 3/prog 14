@@ -1,0 +1,9 @@
+# Златопольский 12.16
+a = list(input())
+b = list(input())
+s1 = a[0]
+s2 = b[-1]
+if s1 == s2:
+    print('верно')
+else:
+    print('неверно')

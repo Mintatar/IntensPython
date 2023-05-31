@@ -1,0 +1,23 @@
+# Златопольский 12.8
+a1 = list(input())
+a2 = list(input())
+a3 = list(input())
+
+b1 = len(a1)
+b2 = len(a2)
+b3 = len(a3)
+
+c1 = max(b1, b2, b3)
+if c1 == b1:
+    print(*a1)
+elif c1 == b2:
+    print(*a2)
+elif c1 == b3:
+    print(*a3)
+c2 = min(b1, b2, b3)
+if c2 == b1:
+    print(*a1)
+elif c2 == b2:
+    print(*a2)
+elif c2 == b3:
+    print(*a3)
