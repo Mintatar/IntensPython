@@ -1,0 +1,8 @@
+a=float(input())
+b=float(input())
+def squart (a,b):
+if a!=0:
+return(-b/a)
+else:
+return('Error')
+print(squart(a,b))
