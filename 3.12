@@ -1,0 +1,7 @@
+import math
+n = int(input())
+print(math.ceil(n/4))
+order = n%4
+order = order +4*(1-math.ceil(order/4))
+
+print(order)
