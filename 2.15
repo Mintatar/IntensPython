@@ -1,0 +1,7 @@
+import math
+b=float(input())
+s=float(input())
+if b<=s:
+print ('Error')
+else:
+print(math.pi*(b**2-s**2))
