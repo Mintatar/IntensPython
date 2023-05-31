@@ -1,0 +1,3 @@
+import math
+n = 237
+print(237%100*10+2)
