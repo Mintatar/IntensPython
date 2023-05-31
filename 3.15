@@ -4,3 +4,10 @@ y = math.ceil (n / 120)
 s = math.ceil((n +7) % 120 % 8) + 1
 print(y)
 print(s)
+
+import math
+n = int(input())
+s = math.ceil (n / 150)
+y = math.ceil((n+9)%150%10) + 1
+print(s)
+print(y) 
