@@ -1,0 +1,5 @@
+a, b, c, d, n = float(input()), float(input()), float(input()), float(input()), int(input())
+k=a+b+c+d
+
+print(k)
+print(k*n)
