@@ -1,0 +1,7 @@
+# Златопольский, 14.5
+a = int(input('Введите ширину '))
+b = int(input('Введите высоту '))
+print('*' * a)
+for i in range(b):
+    print('*', ' ' * (a - 2), '*', sep = '')
+print('*' * a)
