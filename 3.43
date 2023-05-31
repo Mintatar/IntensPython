@@ -1,0 +1,6 @@
+a2, a1, b2, b1 = int(input()), int(input()), int(input()), int(input())
+a = a2*10 +a1 + b2*10+b1
+c = a // 10
+d = a % 10
+print(c)
+print(d)
