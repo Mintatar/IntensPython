@@ -1,0 +1,10 @@
+k = int(input())
+n = k%7
+print(n)
+k = int(input())
+n = (k+1)%7
+print(n)
+k = int(input())
+d=int(input())
+n = (k+(d-1))%7
+print(n)
