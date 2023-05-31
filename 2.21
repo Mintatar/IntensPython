@@ -1,0 +1,11 @@
+import math
+e = float(input())
+f = float(input())
+g = float(input())
+h = float(input())
+print((e+(f/2))/3)
+print(abs(h**2 - g))
+if (((g-h)**2)-3*math.sin(e))<0:
+print("ERROR")
+else:
+print ((((g-h)**2)-3*math.sin(e))**0.5)
