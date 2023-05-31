@@ -1,0 +1,4 @@
+import math
+n = int(input())
+d= n + 1
+print(int(d%12)
